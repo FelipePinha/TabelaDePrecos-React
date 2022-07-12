@@ -1,9 +1,13 @@
 import React from "react";
+import { Wrapper } from "./App.styles";
+import { Card } from "../Card/Card";
 
 export const App = () => {
     return (
-        <div>
-            todo: app
-        </div>
+        <Wrapper>
+            <Card />
+            <Card />
+            <Card />
+        </Wrapper>
     )
 }
