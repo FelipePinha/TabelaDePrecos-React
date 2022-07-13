@@ -14,6 +14,17 @@ export const Wrapper = styled.div`
     font-size: 18px;
     color: #1d539e;
     position: relative;
+
+    @media (max-width: 800px) {
+        &{
+            width: 95%;
+            min-height: 75%;
+        }
+    }
+
+    @media (max-width: 320px) {
+        min-height: 90%;
+    }
 `
 
 export const PriceContainer = styled.div`
@@ -39,6 +50,12 @@ export const Description = styled.p`
     color: #828799;
     font-size: 16px;
     margin-bottom: 40px;
+
+    @media (max-width: 800px) {
+        & {
+            font-size: 20px;
+        }
+    }
 `
 
 export const Benefits = styled.li`
@@ -49,6 +66,12 @@ export const Benefits = styled.li`
     .icon {
         margin-right: 10px;
         color: #00ff00;
+    }
+
+    @media (max-width: 800px) {
+        & {
+            font-size: 20px;
+        }
     }
 `
 
