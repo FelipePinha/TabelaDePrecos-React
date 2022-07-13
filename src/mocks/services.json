@@ -1,0 +1,37 @@
+{
+    "services": [
+        {
+            "id": "000e1860-02d8-11ed-b939-0242ac120002",
+            "type": "Free",
+            "title": "Gratuito",
+            "price": "0,00",
+            "benefits": [
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit."
+            ] 
+        },
+        {
+            "id": "000e1a22-02d8-11ed-b939-0242ac120002",
+            "type": "Basic",
+            "title": "Básico",
+            "price": "29,00",
+            "benefits": [
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit."
+            ] 
+        },
+        {
+            "id": "000e1b12-02d8-11ed-b939-0242ac120002",
+            "type": "Professional",
+            "title": "Profissional",
+            "price": "59,00",
+            "benefits": [
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit.",
+                "Lorem ipsum dolor sit."
+            ] 
+        }
+    ]
+}

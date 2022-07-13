@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
     border-radius: 10px;
     font-size: 18px;
     color: #1d539e;
+    position: relative;
 `
 
 export const PriceContainer = styled.div`
@@ -52,6 +53,7 @@ export const Benefits = styled.li`
 `
 
 export const Button = styled.button`
+    position: absolute;
     width: 90%;
     padding: 20px;
 
@@ -61,7 +63,9 @@ export const Button = styled.button`
     border-radius: 10px;
     
 
-    margin: 45px auto;
+    bottom: 5%;
+    right: 5%;
+
     font-size: 22px;
     letter-spacing: 1.3px;
 

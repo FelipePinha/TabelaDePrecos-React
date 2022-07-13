@@ -3,16 +3,19 @@ import { Wrapper, PriceContainer, Description, Benefits, Button } from "./Card.s
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
-export const Card = () => {
+export const Card = ({ title, price, benefits }) => {
+    
+    const [bigPrice, cents] = price.split(',')
+
     return(
         <Wrapper>
-            <h3>Título</h3>
+            <h3>{title}</h3>
 
             <PriceContainer>
                 <strong>R$</strong>
-                <strong>0</strong>
+                <strong>{bigPrice}</strong>
                 <small>
-                    ,00
+                    ,{cents}
                     <span>/mês</span>
                 </small>
             </PriceContainer>
@@ -20,14 +23,14 @@ export const Card = () => {
             <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dignissimos.</Description>
 
             <ul>
-                <Benefits>
-                    <FontAwesomeIcon icon={faCheck} className='icon'/>
-                    Lorem ipsum dolor sit.
-                </Benefits>
-                <Benefits>
-                    <FontAwesomeIcon icon={faCheck} className='icon'/>
-                    Lorem ipsum dolor sit.
-                </Benefits>
+                {
+                    benefits.map(benefit => (
+                        <Benefits>
+                        <FontAwesomeIcon icon={faCheck} className='icon'/>
+                        {benefit}
+                        </Benefits>
+                    ))
+                }
             </ul>
 
             <Button>Assinar</Button>
