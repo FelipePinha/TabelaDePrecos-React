@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     background-color: #fff;
     width: 300px;
     min-width: 24%;
-    height: 65%;
+    height: 70%;
 
     display: flex;
     flex-direction: column;
@@ -68,11 +68,6 @@ export const Benefits = styled.li`
         color: #00ff00;
     }
 
-    @media (max-width: 800px) {
-        & {
-            font-size: 20px;
-        }
-    }
 `
 
 export const Button = styled.button`

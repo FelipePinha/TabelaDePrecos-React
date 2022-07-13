@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Wrapper, Footer } from "./App.styles";
+import { Wrapper} from "./App.styles";
 import { Card } from "../Card/Card";
 import servicesMock from '../../mocks/services.json'
 
