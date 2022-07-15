@@ -1,5 +1,7 @@
 <h1 align='center'>Tabela de preços</h1>
 
+![pricingTableImg](https://user-images.githubusercontent.com/50679370/179131956-c63d084d-e831-4c66-a305-a66732dadf23.png)
+
 <div>
   <h2>Tecnologias usadas</h2>
   
